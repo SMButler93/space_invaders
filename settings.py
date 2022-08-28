@@ -17,7 +17,7 @@ class Settings:
         self.explosion = pygame.mixer.Sound('sounds/explosion.mp3')
 
         # Bullet settings:
-        self.bullet_width = 600
+        self.bullet_width = 50
         self.bullet_height = 15
         self.bullet_colour = (0, 255, 0)
         self.bullets_allowed = 3
